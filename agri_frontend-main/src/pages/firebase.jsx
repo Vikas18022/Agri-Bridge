@@ -3,7 +3,7 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAsfNGv3YtvZTJIRGHe3AZVv7OUqzghtgQ",
+    apiKey: import.meta.env.VITE_GOOGLE_API_KEY,
     authDomain: "agribridge-login.firebaseapp.com",
     projectId: "agribridge-login",
     storageBucket: "agribridge-login.firebasestorage.app",
