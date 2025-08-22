@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './payment.css';
+import './Payment.css';
 
 function Payment() {
   const [paymentStatus, setPaymentStatus] = useState('');
