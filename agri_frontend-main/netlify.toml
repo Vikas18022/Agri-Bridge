@@ -1,0 +1,4 @@
+[build]
+  base = ""           # leave empty if package.json is at root
+  command = "npm run build"
+  publish = "build"   # or "dist" depending on your framework
